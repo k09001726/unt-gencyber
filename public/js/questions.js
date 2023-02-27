@@ -3,7 +3,7 @@ const questions = [
   {
     prompt: 'What is a tool in Cloud Security?',
     options: ['Malwarebytes', 'Firewalls', 'Cloudflare', 'WiFi'],
-    correctAnswer: 'Hyper Text Markup Language',
+    correctAnswer: 'Cloudflare',
     cashPrize: 10
   },
   {
@@ -138,8 +138,8 @@ const questions = [
   },
   {
     prompt: 'Suppose there is a website that has a search feature to search for products. How can an attacker use reflected cross-site scripting (XSS) to attack a victim?',
-    options: ['https://example.com/search?q=alert(\'XSS\')', 'https://example.com/search?q=<script>alert(\'XSS\')</script>', '<script>alert(\'XSS\')</script>', 'https://example.com/search?q=<script>\'XSS\'</script>'],
-    correctAnswer: 'https://example.com/search?q=<script>alert(\'XSS\')</script>',
+    options: ['search?q=alert(\'XSS\')', 'search?q=<...>alert(\'XSS\')</...>', 'XSS', 'search?q=<...>\'XSS\'</...>'],
+    correctAnswer: 'search?q=<...>alert(\'XSS\')</...>',
     cashPrize: 100
   },
   {

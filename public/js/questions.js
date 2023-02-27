@@ -2,7 +2,7 @@ const questions = [
   /* Category 1 Questions */
   {
     prompt: 'What is a tool in Cloud Security?',
-    options: ['Malwarebytes', 'Firewalls', 'Cloudflare', 'WiFi'],
+    options: ['Malwarebytes', 'Direct TV', 'Cloudflare', 'WiFi'],
     correctAnswer: 'Cloudflare',
     cashPrize: 10
   },

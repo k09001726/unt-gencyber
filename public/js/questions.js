@@ -125,7 +125,7 @@ const questions = [
   },
   /* Category 5 Questions */
   {
-    prompt: 'UA website uses this sql query for user authentication. How can an attacker bypass the loging system? SELECT * FROM users WHERE username=\'admin\' AND password=?se of "Alert" popup windows is often considered bad practice as browsers and users are hostile to pop-ups. What are the other two native Javascript popup functions?',
+    prompt: 'How can an attacker bypass the loging system with SQL? SELECT * FROM users WHERE username=\'admin\' AND password=?se of "Alert"',
     options: ['\' OR \'1\'=\'1\'', '\' AND \'1\'=\'1\'', '\' IF \'1\'=\'1\'', '\' ELSE \'1\'=\'1\''],
     correctAnswer: '\' OR \'1\'=\'1\'',
     cashPrize: 10
